@@ -2,11 +2,31 @@
 
 自动汇总长期维护的公开名单，生成 v2rayA RoutingA 文本。每日北京时间 08:23 由 GitHub Actions 构建，也可手动运行。GitHub 定时任务可能延迟，公共仓库长期无活动时定时任务可能被 GitHub 暂停。
 
-## 下载
+## 订阅链接（点击复制）
 
-- [黑名单：已知国外代理、广告拦截、其余直连](https://raw.githubusercontent.com/dqipb200706/routinga-rules/main/dist/routingA-blacklist.txt)
-- [白名单：已知国内直连、广告拦截、其余代理](https://raw.githubusercontent.com/dqipb200706/routinga-rules/main/dist/routingA-whitelist.txt)
-- [原地址 routingA.txt](https://raw.githubusercontent.com/dqipb200706/routinga-rules/main/dist/routingA.txt)：继续提供黑名单内容，避免原链接失效。
+每个地址单独放在代码块内，点击代码块右上角的复制按钮即可复制完整链接。这些是 RoutingA 规则文件地址，不是代理节点订阅。
+
+### 黑名单
+
+已知国外走代理、已知广告拦截、其他直连。[点击打开规则](https://raw.githubusercontent.com/dqipb200706/routinga-rules/main/dist/routingA-blacklist.txt)
+
+```text
+https://raw.githubusercontent.com/dqipb200706/routinga-rules/main/dist/routingA-blacklist.txt
+```
+
+### 白名单
+
+已知国内走直连、已知广告拦截、其他代理。[点击打开规则](https://raw.githubusercontent.com/dqipb200706/routinga-rules/main/dist/routingA-whitelist.txt)
+
+```text
+https://raw.githubusercontent.com/dqipb200706/routinga-rules/main/dist/routingA-whitelist.txt
+```
+
+原地址 `routingA.txt` 继续提供黑名单内容，避免原链接失效：
+
+```text
+https://raw.githubusercontent.com/dqipb200706/routinga-rules/main/dist/routingA.txt
+```
 
 [来源版本、条数及两份文件校验](dist/manifest.json)
 
