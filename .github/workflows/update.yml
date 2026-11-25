@@ -1,0 +1,35 @@
+name: Build RoutingA
+on:
+  schedule:
+    - cron: '23 0 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/**'
+      - 'custom/**'
+      - '.github/workflows/update.yml'
+permissions:
+  contents: write
+concurrency:
+  group: build-rules
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build and validate
+        run: python scripts/build.py
+      - name: Commit generated output
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add dist/
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update generated RoutingA rules'
+            git push
+          fi

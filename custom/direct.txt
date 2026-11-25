@@ -1,0 +1,1 @@
+# Personal DOMAIN-SET entries: example.com = exact; .example.com = domain and subdomains.

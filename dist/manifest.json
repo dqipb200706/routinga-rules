@@ -1,0 +1,57 @@
+{
+  "sources": {
+    "direct": {
+      "repo": "Loyalsoldier/surge-rules",
+      "commit": "0b9074149b8a595ea6d1521597895a1332d2e325",
+      "url": "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/0b9074149b8a595ea6d1521597895a1332d2e325/direct.txt",
+      "sha256": "6fb9704786f27a5f96d045e130cf6dc6bf0997ba2ce343966d4794959116a719",
+      "count": 110250
+    },
+    "proxy": {
+      "repo": "Loyalsoldier/surge-rules",
+      "commit": "0b9074149b8a595ea6d1521597895a1332d2e325",
+      "url": "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/0b9074149b8a595ea6d1521597895a1332d2e325/proxy.txt",
+      "sha256": "122829b77505aa274095765a61712e31f2f26e44a7e24bd27496741386a6def4",
+      "count": 27277
+    },
+    "reject": {
+      "repo": "Loyalsoldier/surge-rules",
+      "commit": "0b9074149b8a595ea6d1521597895a1332d2e325",
+      "url": "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/0b9074149b8a595ea6d1521597895a1332d2e325/reject.txt",
+      "sha256": "d1ed827f49d6da6cd9238b1dd475516887823f469e4171df851693c6cffad30b",
+      "count": 203624
+    },
+    "private": {
+      "repo": "Loyalsoldier/surge-rules",
+      "commit": "0b9074149b8a595ea6d1521597895a1332d2e325",
+      "url": "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/0b9074149b8a595ea6d1521597895a1332d2e325/private.txt",
+      "sha256": "44e02418cff1f9a68449877bfc450334311c55580a06971c256894307d400e84",
+      "count": 132
+    },
+    "ipv4": {
+      "repo": "PaPerseller/chn-iplist",
+      "commit": "f0db9075127849d95b70f71eec0419ba9b7410f9",
+      "url": "https://raw.githubusercontent.com/PaPerseller/chn-iplist/f0db9075127849d95b70f71eec0419ba9b7410f9/chnroute-ipv4.txt",
+      "sha256": "2d6a42ed9949395dc8ab886243b560de26f7891a1b04f6999f4e759a51ba5aa0",
+      "count": 6301
+    },
+    "ipv6": {
+      "repo": "PaPerseller/chn-iplist",
+      "commit": "f0db9075127849d95b70f71eec0419ba9b7410f9",
+      "url": "https://raw.githubusercontent.com/PaPerseller/chn-iplist/f0db9075127849d95b70f71eec0419ba9b7410f9/chnroute-ipv6.txt",
+      "sha256": "8dbfcab1b5b152934f3d36de1aa2d77c8e9701cac6c73350679d1163ab201282",
+      "count": 2020
+    }
+  },
+  "duplicate_patterns": {
+    "reject_proxy": 119,
+    "reject_direct": 254,
+    "proxy_direct": 115
+  },
+  "custom_counts": {
+    "direct": 0,
+    "proxy": 0,
+    "reject": 0
+  },
+  "output_sha256": "772d4492e701a43c3acae5c9545c63ccf31b38502a3182bbcc659f0393dc39dc"
+}
