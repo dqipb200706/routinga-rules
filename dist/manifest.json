@@ -53,5 +53,10 @@
     "proxy": 0,
     "reject": 0
   },
-  "output_sha256": "4611ccd1b673cfd92a8dc73f6f1907777e1baa5c4fe6c88aebb375050b6f991d"
+  "outputs_sha256": {
+    "routingA-blacklist.txt": "f31d698a3966c7cef7576fdf2a96bd1eb2b1f2f3460472e00cf9ac157f4f95c1",
+    "routingA-whitelist.txt": "0c926a340f694677435c8f805d8ca7846ae1c04593b6c23f7a06110972daa18f",
+    "routingA.txt": "f31d698a3966c7cef7576fdf2a96bd1eb2b1f2f3460472e00cf9ac157f4f95c1"
+  },
+  "output_sha256": "f31d698a3966c7cef7576fdf2a96bd1eb2b1f2f3460472e00cf9ac157f4f95c1"
 }
