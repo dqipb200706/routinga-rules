@@ -2,29 +2,29 @@
   "sources": {
     "direct": {
       "repo": "Loyalsoldier/surge-rules",
-      "commit": "762036424514456961d120deeb20e710236f0ac8",
-      "url": "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/762036424514456961d120deeb20e710236f0ac8/direct.txt",
+      "commit": "63dd8ab056f8e51e5453f4f5f7e10a11e2eace55",
+      "url": "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/63dd8ab056f8e51e5453f4f5f7e10a11e2eace55/direct.txt",
       "sha256": "6fb9704786f27a5f96d045e130cf6dc6bf0997ba2ce343966d4794959116a719",
       "count": 110250
     },
     "proxy": {
       "repo": "Loyalsoldier/surge-rules",
-      "commit": "762036424514456961d120deeb20e710236f0ac8",
-      "url": "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/762036424514456961d120deeb20e710236f0ac8/proxy.txt",
-      "sha256": "49a49cde0b44b1d71926871906f0f50cb8d2c05bdcf7d2adb88d639861322867",
-      "count": 27288
+      "commit": "63dd8ab056f8e51e5453f4f5f7e10a11e2eace55",
+      "url": "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/63dd8ab056f8e51e5453f4f5f7e10a11e2eace55/proxy.txt",
+      "sha256": "6a999dedc29badc280d8e58bb6c8664fc5b8619f80197e9b592cf4872e2c7ae2",
+      "count": 27293
     },
     "reject": {
       "repo": "Loyalsoldier/surge-rules",
-      "commit": "762036424514456961d120deeb20e710236f0ac8",
-      "url": "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/762036424514456961d120deeb20e710236f0ac8/reject.txt",
-      "sha256": "d8c089e45636632ac3062e6a4e7f9c089fe369bbd1dbefcb024adb8825192165",
-      "count": 204388
+      "commit": "63dd8ab056f8e51e5453f4f5f7e10a11e2eace55",
+      "url": "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/63dd8ab056f8e51e5453f4f5f7e10a11e2eace55/reject.txt",
+      "sha256": "dad82ea49f32b1eecdc5c3d1fc2e3258f4476b126e1b233bb4a9dc3efcefcdc2",
+      "count": 204783
     },
     "private": {
       "repo": "Loyalsoldier/surge-rules",
-      "commit": "762036424514456961d120deeb20e710236f0ac8",
-      "url": "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/762036424514456961d120deeb20e710236f0ac8/private.txt",
+      "commit": "63dd8ab056f8e51e5453f4f5f7e10a11e2eace55",
+      "url": "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/63dd8ab056f8e51e5453f4f5f7e10a11e2eace55/private.txt",
       "sha256": "44e02418cff1f9a68449877bfc450334311c55580a06971c256894307d400e84",
       "count": 132
     },
@@ -54,9 +54,9 @@
     "reject": 0
   },
   "outputs_sha256": {
-    "routingA-blacklist.txt": "57dc44a6f9413bd5bf754f65157577ca83e38d7c9bab2b1bfb8c73e148a6417c",
-    "routingA-whitelist.txt": "658de713c22f272646871caf0681bc2e6dfb3c6c5d9679a6cddb3f21f14bcc24",
-    "routingA.txt": "57dc44a6f9413bd5bf754f65157577ca83e38d7c9bab2b1bfb8c73e148a6417c"
+    "routingA-blacklist.txt": "c5fd32a981474a46e6470f12d62bb5ecfcdd5a4b86ebb924a452918b8943c64d",
+    "routingA-whitelist.txt": "ed09872878517a4da59a0b296a4399d9132fc6a56c4060828e95f9794da7ca06",
+    "routingA.txt": "c5fd32a981474a46e6470f12d62bb5ecfcdd5a4b86ebb924a452918b8943c64d"
   },
-  "output_sha256": "57dc44a6f9413bd5bf754f65157577ca83e38d7c9bab2b1bfb8c73e148a6417c"
+  "output_sha256": "c5fd32a981474a46e6470f12d62bb5ecfcdd5a4b86ebb924a452918b8943c64d"
 }
